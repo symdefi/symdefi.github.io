@@ -1,24 +1,23 @@
-# BSCswap Interface
+# SYMSwap Interface
 
-[![Tests](https://github.com/bscswap/bscswap-interface/workflows/Tests/badge.svg)](https://github.com/bscswap/bscswap-interface/actions?query=workflow%3ATests)
+[![Tests](https://github.com/symdefi/symdefi.github.io/workflows/Tests/badge.svg)](https://github.com/symdefi/symdefi.github.io/actions?query=workflow%3ATests)
 [![Styled With Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
 
-An open source interface for BSCswap -- a protocol for decentralized exchange of Binance Smart Chain BEP20 tokens.
+An open source interface for SYMswap -- a protocol for decentralized exchange of Binance Smart Chain BEP20 tokens.
 
-- Website: [bscswap.com](https://bscswap.com/)
+- Website: [symdefi.com](https://symdefi.com/)
 - Docs: [uniswap.org/docs/](https://uniswap.org/docs/)
-- Twitter: [@BSCswapProtocol](https://twitter.com/BSCswapProtocol)
-- Email: [hyunsiklee@bscswap.com](mailto:hyunsiklee@bscswap.com)
-- Discord: [BSCswap](https://discord.gg/mCZSA3w)
+- Twitter: [@SYMDeFi](https://twitter.com/SYMDeFi)
+- Email: [arsharawi@protonmail.com](mailto:arsharawi@protonmail.com)
 
-## Accessing the BSCswap Interface
+## Accessing the SYMswap Interface
 
-To access the BSCswap Interface, visit [bscswap.com](https://bscswap.com) which is hosted directly on gh-pages branch.
+To access the SYMswap Interface, visit [swap.symdefi.com](http://swap.symdefi.com) which is hosted directly on gh-pages branch.
 
 ## Listing a token
 
 Please see the
-[@bscswap/default-token-list](https://github.com/bscswap/default-token-list)
+[@symdefi/default-token-list](https://github.com/symdefi/default-token-list)
 repository.
 
 ## Development
@@ -44,7 +43,7 @@ To have the interface default to a different network when a wallet is not connec
 3. Change `REACT_APP_NETWORK_URL` to e.g. `"https://{YOUR_NETWORK_ID}.infura.io/v3/{YOUR_INFURA_KEY}"`
 
 Note that the interface only works on BSC testnets where both
-[BSCswap Factory & Router Contract](https://github.com/bscswap/contracts/tree/master/contracts) and
+[SYMswap Factory & Router Contract](https://github.com/symdefi/contracts/tree/master/contracts) and
 [multicall](https://github.com/makerdao/multicall) are deployed.
 The interface will not work on other networks.
 
